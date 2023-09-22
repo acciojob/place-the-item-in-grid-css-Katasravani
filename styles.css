@@ -1,20 +1,16 @@
+/* Apply these styles to the grid container */
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+    width: 200px; /* Total size of 200px */
+    height: 200px; /* Total size of 200px */
+    grid-gap: 10px; /* Add some gap between grid items (adjust as needed) */
+}
 
-/* Your CSS Code here. */
-.holder{
-	display:grid;
-	grid-template-columns:repeat(2,200px);
-	grid-template-rows:repeat(2,200px);
-}
-#a{
-	background-color:yellow;
-	
-}
-#b{
-	background-color:royalblue;
-}
-#c{
-	background-color:hotpink;
-}
-#d{
-	background-color:greenyellow;
+/* Styles for individual items */
+.item {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
 }
