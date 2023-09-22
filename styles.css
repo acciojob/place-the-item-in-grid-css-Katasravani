@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+#holder{
+	display:grid;
+	grid-template-columns:repeat(2,200px);
+	grid-template-rows:repeat(2,200px);
+}
+#a{
+	background-color:yellow;
+	
+}
+#b{
+	background-color:royalblue;
+}
+#c{
+	background-color:hotpink;
+}
+#d{
+	background-color:greenyellow;
+}
