@@ -1,13 +1,5 @@
-/* Apply these styles to the grid container */
-.holder {
-    display: grid;
-    grid-template-columns: repeat(2, 200px); /* Two equal columns */
-    grid-template-rows: repeat(2, 200px); /* Two equal rows */ /* Total size of 200px */
-    grid-gap: 10px; /* Add some gap between grid items (adjust as needed) */
-}
-
-/* Styles for individual items */
-.item {
-    background-color: lightblue;
-    text-align: center;
+.holder{
+	display:grid;
+	grid-template-columns:repeat(2,200px);
+	grid-template-rows:repeat(2,200px);
 }
